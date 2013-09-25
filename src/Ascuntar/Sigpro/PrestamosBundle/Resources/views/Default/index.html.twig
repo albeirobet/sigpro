@@ -1,0 +1,19 @@
+{% extends '::base.html.twig' %}
+{% block titulo %}
+{{ parent() }}
+{% endblock %}
+{% block menu_principal %}
+<li class="active"><a href="#">Inicio</a></li>
+<li><a href="#clientes">Nuestros Clientes</a></li>
+{% endblock menu_principal%}
+{% block contenedor_principal %}
+    <form class="form-signin">
+        <h2 class="form-signin-heading">Acceso Clientes</h2>
+        <input type="text" class="form-control" placeholder="Nombre de Usuario" autofocus><br>
+        <input type="password" class="form-control" placeholder="Contraseña">
+        <label class="checkbox">
+            <input type="checkbox" value="remember-me"> Recordame en este equipo
+        </label>
+        <button class="btn btn-primary btn-block" type="submit">Ingresar</button>
+    </form>
+{% endblock contenedor_principal %}

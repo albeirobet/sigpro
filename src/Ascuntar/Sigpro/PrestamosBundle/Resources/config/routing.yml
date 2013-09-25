@@ -1,0 +1,7 @@
+ascuntar_sigpro_prestamos_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: AscuntarSigproPrestamosBundle:Default:index }
+ascuntar_sigpro_prestamos_homepage:
+    pattern:  /
+    defaults: { _controller: AscuntarSigproPrestamosBundle:Default:index }
+    

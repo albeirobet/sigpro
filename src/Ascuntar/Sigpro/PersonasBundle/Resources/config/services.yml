@@ -1,0 +1,7 @@
+parameters:
+#    ascuntar_sigpro_personas.example.class: Ascuntar\Sigpro\PersonasBundle\Example
+
+services:
+#    ascuntar_sigpro_personas.example:
+#        class: %ascuntar_sigpro_personas.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

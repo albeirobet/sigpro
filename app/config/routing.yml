@@ -1,0 +1,8 @@
+ascuntar_sigpro_prestamos:
+    resource: "@AscuntarSigproPrestamosBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ascuntar_sigpro_personas:
+    resource: "@AscuntarSigproPersonasBundle/Resources/config/routing.yml"
+    prefix:   /
+

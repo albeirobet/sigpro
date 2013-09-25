@@ -1,0 +1,3 @@
+ascuntar_sigpro_personas_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: AscuntarSigproPersonasBundle:Default:index }
